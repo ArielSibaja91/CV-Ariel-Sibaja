@@ -1,0 +1,53 @@
+---
+import Section from '../Section.astro';
+import { work } from '../../assets/cv.json';
+---
+
+<Section title="Experiencia">
+    <ul class="space-y-3">
+        {
+            work.map(
+            ({ name, location, position, url, startDate, endDate, summary }) => {
+            const startYear = new Date(startDate).toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
+            const endYear = endDate != null ? new Date(endDate).toLocaleDateString('es-ES', { month: 'long', year: 'numeric' }) : 'Actualidad';
+
+            return (
+                <li>
+                    <header class="flex justify-between items-start mb-1">
+                        <div>
+                            <h3 class="inline-flex items-center gap-x-1 text-base font-semibold leading-none">
+                                <a href={url} target="_blank" class="hover:underline hover:underline-offset-4">
+                                    {name}
+                                </a>
+                                <span class="font-mono text-xs font-normal px-2 bg-gray-200 rounded-md">
+                                    {location}
+                                </span>
+                            </h3>
+                            <h4 class="text-base">
+                                {position}
+                            </h4>
+                        </div>
+
+                        <div class="[&>time]:text-gray-600 [&>time]:text-base [&>time]:font-sans">
+                            <time datetime={startDate}>
+                                {startYear}
+                            </time>
+                            { '-' }
+                            <time datetime={endDate}>
+                                {endYear}
+                            </time>
+                        </div>
+                    </header>
+
+                    <footer>
+                        <p class="text-sm text-pretty font-mono text-gray-600">
+                            {summary}
+                        </p>
+                    </footer>
+                </li>
+            )
+                }
+            )
+        }
+    </ul>
+</Section>

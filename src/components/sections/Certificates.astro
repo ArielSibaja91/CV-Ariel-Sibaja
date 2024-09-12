@@ -1,0 +1,46 @@
+---
+import Section from '../Section.astro';
+import { certificates } from '../../assets/cv.json';
+---
+
+<Section title="Certificados">
+    <ul class="flex flex-col gap-y-3">
+        {
+            certificates.map(
+                ({ name, date, issuer, modality, url, summary }) => {
+                const earnDate = new Date(date).toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
+
+                return (
+                    <li>
+                        <header class="flex justify-between">
+                            <div>
+                                <h3 class="inline-flex md:items-center items-start gap-x-1 text-base font-semibold">
+                                {name}
+                            </h3>
+                            <h4 class="text-sm font-mono text-gray-600">
+                                <a href={url} class="hover:underline hover:underline-offset-4" target="_blank">
+                                    {issuer}
+                                </a>
+                                <span class="font-mono text-xs font-normal px-2 bg-gray-200 rounded-md">
+                                    {modality}
+                                </span>
+                            </h4>
+                            </div>
+                            <div class="[&>time]:text-gray-600 [&>time]:text-base [&>time]:font-sans">
+                                <time datetime={date}>
+                                    {earnDate}
+                                </time>
+                            </div>
+                        </header>
+                        <footer>
+                            <p class="text-sm text-pretty font-mono text-gray-600">
+                                {summary}
+                            </p>
+                        </footer>
+                    </li>
+                )
+                }
+            )
+        }
+    </ul>
+</Section>

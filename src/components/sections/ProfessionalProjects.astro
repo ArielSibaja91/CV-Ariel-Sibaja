@@ -1,0 +1,36 @@
+---
+import Section from '../Section.astro';
+import { professionalProjects } from '../../assets/cv.json';
+---
+<Section title="Proyectos Profesionales">
+    <ul class="grid grid-cols-1 md:grid-cols-3 print:grid-cols-3 gap-4 md:-ms-4 md:-me-4">
+        {
+            professionalProjects.map(
+                ({ name, isActive, description, highlights, url }) => {
+                return (
+                    <li>
+                        <article class="md:border border-0 border-gray-300 p-4 rounded-md space-y-4">
+                            <header>
+                                <h3>
+                                    <a href={url} class="hover:underline hover:underline-offset-4" target="_blank">
+                                        {name}
+                                    </a>
+                                    {isActive && <span class="text-green-500">•</span>}
+                                </h3>
+                                <p class="text-sm">
+                                    {description}
+                                </p>
+                            </header>
+                            <footer class="flex flex-wrap gap-1">
+                                {highlights.map((highlight) => {
+                                    return <span class="text-xs px-1 py-[.2rem] bg-gray-200 rounded-md">{highlight}</span>
+                                })}
+                            </footer>
+                        </article>
+                    </li>
+                )
+                }
+            )
+        }
+    </ul>
+</Section>

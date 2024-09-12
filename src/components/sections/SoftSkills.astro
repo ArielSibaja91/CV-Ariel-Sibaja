@@ -1,0 +1,18 @@
+---
+import Section from "../Section.astro";
+import { softSkills } from '../../assets/cv.json';
+---
+
+<Section title="Habilidades Blandas">
+    <ul class="inline-flex flex-wrap gap-x-1 gap-y-2 font-mono">
+        {
+            softSkills.map(({ name }) => {
+            return (
+                <li class="text-xs text-white font-semibold items-center px-2 py-[.2rem] rounded-md print:bg-gray-700 bg-gray-700 hover:brightness-150 duration-200">
+                    <span>{name}</span>
+                </li>
+            )
+            })
+        }
+    </ul>
+</Section>

@@ -1,0 +1,223 @@
+{
+    "basics": {
+        "name": "Ariel Andrés Sibaja Ugalde",
+        "label": "Desarrollador Front-End | Analista en Soporte Técnico",
+        "email": "mailto:arielsibaja91@gmail.com",
+        "phone": "tel:+50683994953",
+        "summary": "Desarrollador Full Stack con experiencia en la creación de páginas y aplicaciones web escalables y modernas. Con especial disposición para la creación de interfaces responsivas y reactivas. Actualmente me desenvuelvo en las tecnologías React, Vue, Typescript, Node.js, Java, Spring Boot y SQL.",
+        "location": {
+            "city": "Poás, Alajuela, Costa Rica",
+            "address": "https://www.google.com/maps/place/Provincia+de+Alajuela,+Po%C3%A1s/@10.0712398,-84.246559,15z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f7b5ca4843c9:0x4c98688f794a58b5!8m2!3d10.07124!4d-84.246559!16s%2Fg%2F1tyt6dsh?entry=ttu"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "ArielSibaja91",
+                "url": "https://github.com/ArielSibaja91"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "arielsibaja",
+                "url": "https://www.linkedin.com/in/ariel-andr%C3%A9s-sibaja-ugalde-48a74025a/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "STCA CENTER",
+            "location": "Remoto",
+            "position": "Freelance Front-End Developer",
+            "url": "https://stcacenter.com/",
+            "startDate": "2023-07-10",
+            "endDate": null,
+            "summary": "Creación de sitios informativos para empresas de seguridad, cooperativas y otro tipo de negocios locales. Migración de sitios de Wordpress a Astro, y el sitio de la empresa a Vue JS. Todos los clientes han manifestado un gran nivel de satisfacción en cuanto al diseño y rendimiento de los sitios."
+        },
+        {
+            "name": "Proquinal S.A.",
+            "location": "El Coyol, Alajuela",
+            "position": "Consultor de Soporte TI",
+            "url": "https://spradling.group/es-la",
+            "startDate": "2021-10-20",
+            "endDate": "2021-12-20",
+            "summary": "Creación de sitios informativos para empresas de seguridad, cooperativas y otro tipo de negocios locales, migré sitios de Wordpress a Astro y el sitio de la empresa a Vue JS. Todos los clientes manifestaron un gran nivel de satisfacción en cuanto al diseño y rendimiento de los sitios."
+        }
+    ],
+    "education": [
+        {
+            "institution": "C.T.P San Rafael de Poás",
+            "url": "https://www.google.com/maps/place/CTP+San+Rafael/@10.0917347,-84.2518583,15z/data=!4m6!3m5!1s0x8fa0f639261c709b:0x89a464418c1411bd!8m2!3d10.0917347!4d-84.2518583!16s%2Fg%2F11bytsbfd_?entry=ttu",
+            "area": "Desarrollo de Software",
+            "studyType": "Diplomado de Bachillerato Técnico",
+            "summary": "Habilidades aquiridas: Soporte técnico, Conocimientos de Hardware, Microsoft Office Básico, Programación de Sistemas, Estructuras de Datos y Algoritmos.",
+            "startDate": "2016-02-10",
+            "endDate": "2021-12-20"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Desarrollador de Front-End Módulo 1",
+            "date": "2023-10-07",
+            "issuer": "Academia Tecnología UCR",
+            "modality": "Virtual",
+            "url": "https://drive.google.com/file/d/1hrnzqpqtzAauOQnIgLYlcDwMM0vGNTOx/view",
+            "summary": "Habilidades aquiridas: HTML5, CSS3, Diseño responsivo, Bootstrap."
+        },
+        {
+            "name": "Desarrollador de Front-End Módulo 2",
+            "date": "2023-12-02",
+            "issuer": "Academia Tecnología UCR",
+            "modality": "Virtual",
+            "url": "https://drive.google.com/file/d/1jeIMOaj5kOTKyqxjZR3-JvcGsHoEgvXP/view",
+            "summary": "Habilidades aquiridas: Javascript, ES6+, JSON, POO, Asincronía."
+        }
+    ],
+    "professionalProjects": [
+        {
+            "name": "STCA CENTER",
+            "isActive": true,
+            "description": "Página web oficial de Servicios Tecnológicos de Centroamérica, con un diseño único y destacado.",
+            "highlights": [
+                "Vue",
+                "TypeScript",
+                "Firebase"
+            ],
+            "url": "https://mars.codes"
+        },
+        {
+            "name": "FEDECASP",
+            "isActive": true,
+            "description": "Sitio web informativo de la Federeación de Empresas de Seguridad Privada de Centroamérica y el Caribe.",
+            "highlights": [
+                "Astro",
+                "Strapi",
+                "TypeScript"
+            ],
+            "url": "https://adventjs.dev"
+        },
+        {
+            "name": "COOPESEG",
+            "isActive": true,
+            "description": "Página de la cooperativa COOPESEG, destinada a la presentación y promoción de esta entidad y sus servicios.",
+            "highlights": [
+                "React",
+                "TypeScript",
+                "Strapi"
+            ],
+            "url": "https://codember.dev"
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "Cupcake Shop",
+            "isActive": true,
+            "description": "Tienda online de cupcakes y reposteria con catálogo en tiempo real y pagos electrónicos.",
+            "highlights": [
+                "React",
+                "TypeScript",
+                "SQL",
+                "Node.js",
+                "Strapi",
+                "E-Commerce",
+                "JWT"
+            ],
+            "url": "https://mars.codes"
+        },
+        {
+            "name": "Z",
+            "isActive": true,
+            "description": "Red social Twitter-like, con autenticación, microblogging, seguridad, privacidad e interacción social.",
+            "highlights": [
+                "React",
+                "Mongo DB",
+                "TypeScript",
+                "Node.js",
+                "React Query",
+                "JWT"
+            ],
+            "url": "https://adventjs.dev"
+        },
+        {
+            "name": "Next Education",
+            "isActive": true,
+            "description": "Plataforma educativa para la gestión y mejora del flujo de trabajo de profesores y estudiantes.",
+            "highlights": [
+                "Vue",
+                "Java",
+                "Spring Boot",
+                "PosgreSQL",
+                "JWT",
+                "Socket.IO"
+            ],
+            "url": "https://codember.dev"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "C2"
+        },
+        {
+            "language": "Inglés",
+            "fluency": "B2"
+        }
+    ],
+    "skills": [
+        
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "TypeScript"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Vue"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Node"
+        },
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Spring"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Mongo"
+        },
+        {
+            "name": "Tailwind"
+        }
+    ],
+    "softSkills": [
+        {
+            "name": "Profesionalidad"
+        },
+        {
+            "name": "Sociabilidad"
+        },
+        {
+            "name": "Cooperativo"
+        },
+        {
+            "name": "Formación contínua"
+        },
+        {
+            "name": "Responsabilidad"
+        }
+    ]
+}
